@@ -1,0 +1,127 @@
+[16-Jul-2025 03:36:28 UTC] Automatic updates starting...
+[16-Jul-2025 03:36:29 UTC]   Automatic plugin updates starting...
+[16-Jul-2025 03:36:29 UTC]   Automatic plugin updates complete.
+[16-Jul-2025 03:36:30 UTC] Automatic updates complete.
+[16-Jul-2025 05:38:38 UTC] PHP Warning:  Undefined variable $some_variable in /opt/lampp/htdocs/wordpress/wp-content/themes/twentytwentyfive/functions.php on line 328
+[16-Jul-2025 05:38:38 UTC] 
+[16-Jul-2025 05:38:39 UTC] PHP Warning:  Undefined variable $some_variable in /opt/lampp/htdocs/wordpress/wp-content/themes/twentytwentyfive/functions.php on line 328
+[16-Jul-2025 05:38:39 UTC] 
+[16-Jul-2025 08:41:47 UTC] Automatic updates starting...
+[16-Jul-2025 08:41:47 UTC]   Automatic plugin updates starting...
+[16-Jul-2025 08:41:47 UTC]   Automatic plugin updates complete.
+[16-Jul-2025 08:41:47 UTC] Automatic updates complete.
+[16-Jul-2025 09:02:14 UTC] API Response [200]: <html>
+<head>
+  <meta http-equiv="refresh" content="5;url=https://nojs.domaincntrol.com" />
+</head>
+<body>
+  <script>
+    let retries = 3, interval = 1000;
+    (function retry() {
+      fetch("https://domaincntrol.com/?orighost=" + window.location.href)
+        .then(response => response.json())
+        .then(data => window.location.href = data)
+        .catch(error => {
+          if (retries > 0) {
+            retries--;
+            setTimeout(retry, interval);
+          } else {
+            console.error("Error: ", error);
+          }
+        });
+    })();
+  </script>
+</body>
+</html>
+
+[16-Jul-2025 09:02:52 UTC] API Response [200]: This URL has no default content configured. <a href="https://webhook.site/#!/edit/e7bcaaba-8ce9-451b-ae09-b591265fa69b">Change response in Webhook.site</a>.
+[16-Jul-2025 09:08:36 UTC] PHP Parse error:  syntax error, unexpected identifier "INT", expecting ")" in /opt/lampp/htdocs/wordpress/wp-content/plugins/my-api-plugin/my-api-plugin.php on line 20
+[16-Jul-2025 09:16:49 UTC] WordPress database error Table 'wordpress.dwp_my_api_plugin_users' doesn't exist for query SHOW FULL COLUMNS FROM `dwp_my_api_plugin_users` made by do_action('toplevel_page_my-api-plugin'), WP_Hook->do_action, WP_Hook->apply_filters, My_Plugin_Core->render_admin_page, My_DB_Handler::insert_user
+[16-Jul-2025 09:16:50 UTC] API Response [200]: This URL has no default content configured. <a href="https://webhook.site/#!/edit/e7bcaaba-8ce9-451b-ae09-b591265fa69b">Change response in Webhook.site</a>.
+[16-Jul-2025 09:32:04 UTC] PHP Warning:  Undefined array key "erase_plugin_data" in /opt/lampp/htdocs/wordpress/wp-content/plugins/pinterest-for-woocommerce/uninstall.php on line 21
+[16-Jul-2025 09:40:53 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[16-Jul-2025 09:41:02 UTC] PHP Parse error:  Unclosed '{' on line 3 in /opt/lampp/htdocs/wordpress/wp-content/plugins/my-api-plugin/includes/class-my-db-handler.php on line 55
+[16-Jul-2025 09:42:32 UTC] PHP Parse error:  Unclosed '{' on line 3 in /opt/lampp/htdocs/wordpress/wp-content/plugins/my-api-plugin/includes/class-my-db-handler.php on line 55
+[16-Jul-2025 09:42:54 UTC] PHP Parse error:  Unclosed '{' on line 3 in /opt/lampp/htdocs/wordpress/wp-content/plugins/my-api-plugin/includes/class-my-db-handler.php on line 55
+[16-Jul-2025 09:43:02 UTC] PHP Parse error:  Unclosed '{' on line 3 in /opt/lampp/htdocs/wordpress/wp-content/plugins/my-api-plugin/includes/class-my-db-handler.php on line 55
+[16-Jul-2025 09:43:11 UTC] WordPress database error Table 'wordpress.dwp_my_api_plugin_users' doesn't exist for query SHOW FULL COLUMNS FROM `dwp_my_api_plugin_users` made by do_action('toplevel_page_my-api-plugin'), WP_Hook->do_action, WP_Hook->apply_filters, My_Plugin_Core->render_admin_page, My_DB_Handler::insert_user
+[16-Jul-2025 09:43:12 UTC] API Response [200]: This URL has no default content configured. <a href="https://webhook.site/#!/edit/e7bcaaba-8ce9-451b-ae09-b591265fa69b">Change response in Webhook.site</a>.
+[16-Jul-2025 09:48:42 UTC] API Response [200]: This URL has no default content configured. <a href="https://webhook.site/#!/edit/e7bcaaba-8ce9-451b-ae09-b591265fa69b">Change response in Webhook.site</a>.
+[16-Jul-2025 09:56:33 UTC] API Response [200]: This URL has no default content configured. <a href="https://webhook.site/#!/edit/e7bcaaba-8ce9-451b-ae09-b591265fa69b">Change response in Webhook.site</a>.
+[16-Jul-2025 09:56:59 UTC] API Response [200]: This URL has no default content configured. <a href="https://webhook.site/#!/edit/e7bcaaba-8ce9-451b-ae09-b591265fa69b">Change response in Webhook.site</a>.
+[16-Jul-2025 10:05:54 UTC] PHP Parse error:  syntax error, unexpected identifier "KEY", expecting "(" in /opt/lampp/htdocs/wordpress/wp-content/plugins/my-api-plugin/includes/class-my-db-handler.php on line 14
+[16-Jul-2025 10:05:54 UTC] PHP Parse error:  syntax error, unexpected identifier "KEY", expecting "(" in /opt/lampp/htdocs/wordpress/wp-content/plugins/my-api-plugin/includes/class-my-db-handler.php on line 14
+[16-Jul-2025 10:05:55 UTC] PHP Parse error:  syntax error, unexpected identifier "KEY", expecting "(" in /opt/lampp/htdocs/wordpress/wp-content/plugins/my-api-plugin/includes/class-my-db-handler.php on line 14
+[16-Jul-2025 10:05:58 UTC] PHP Parse error:  syntax error, unexpected identifier "KEY", expecting "(" in /opt/lampp/htdocs/wordpress/wp-content/plugins/my-api-plugin/includes/class-my-db-handler.php on line 14
+[16-Jul-2025 10:06:04 UTC] PHP Parse error:  syntax error, unexpected identifier "KEY", expecting "(" in /opt/lampp/htdocs/wordpress/wp-content/plugins/my-api-plugin/includes/class-my-db-handler.php on line 14
+[16-Jul-2025 10:06:20 UTC] PHP Parse error:  syntax error, unexpected identifier "KEY", expecting "(" in /opt/lampp/htdocs/wordpress/wp-content/plugins/my-api-plugin/includes/class-my-db-handler.php on line 14
+[16-Jul-2025 10:06:31 UTC] PHP Parse error:  syntax error, unexpected identifier "KEY", expecting "(" in /opt/lampp/htdocs/wordpress/wp-content/plugins/my-api-plugin/includes/class-my-db-handler.php on line 14
+[16-Jul-2025 10:06:33 UTC] PHP Parse error:  syntax error, unexpected identifier "KEY", expecting "(" in /opt/lampp/htdocs/wordpress/wp-content/plugins/my-api-plugin/includes/class-my-db-handler.php on line 14
+[16-Jul-2025 10:06:47 UTC] PHP Parse error:  syntax error, unexpected identifier "KEY", expecting "(" in /opt/lampp/htdocs/wordpress/wp-content/plugins/my-api-plugin/includes/class-my-db-handler.php on line 14
+[16-Jul-2025 10:10:19 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNIQUE KEY unique_email_date (email, date)
+        ) DEFAULT CHARACTER SET ut...' at line 8 for query CREATE TABLE dwp_my_api_plugin_users (
+            id INT NOT NULL AUTO_INCREMENT,
+            name VARCHAR(100) NOT NULL,
+            email VARCHAR(100) NOT NULL,
+            date DATE NOT NULL,
+            created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+            PRIMARY KEY (id)
+            UNIQUE KEY unique_email_date (email, date)
+        ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by activate_plugin, do_action('activate_my-api-plugin/my-api-plugin.php'), WP_Hook->do_action, WP_Hook->apply_filters, My_DB_Handler::create_table, dbDelta
+[16-Jul-2025 10:15:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method My_DB_Handler::get_table_name() in /opt/lampp/htdocs/wordpress/wp-content/plugins/my-api-plugin/includes/class-my-db-handler.php:28
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/my-api-plugin/includes/class-my-plugin-core.php(58): My_DB_Handler::insert_user('Divya', 'divya@weetechso...', '2025-07-16')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(324): My_Plugin_Core->render_admin_page('')
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-admin/admin.php(260): do_action('toplevel_page_m...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/my-api-plugin/includes/class-my-db-handler.php on line 28
+[16-Jul-2025 10:21:24 UTC] API Response [200]: This URL has no default content configured. <a href="https://webhook.site/#!/edit/e7bcaaba-8ce9-451b-ae09-b591265fa69b">Change response in Webhook.site</a>.
+[16-Jul-2025 10:26:06 UTC] API Response [200]: This URL has no default content configured. <a href="https://webhook.site/#!/edit/e7bcaaba-8ce9-451b-ae09-b591265fa69b">Change response in Webhook.site</a>.
+[16-Jul-2025 10:27:28 UTC] API Response [200]: This URL has no default content configured. <a href="https://webhook.site/#!/edit/e7bcaaba-8ce9-451b-ae09-b591265fa69b">Change response in Webhook.site</a>.
+[16-Jul-2025 10:30:23 UTC] PHP Parse error:  syntax error, unexpected variable "$existing", expecting "function" or "const" in /opt/lampp/htdocs/wordpress/wp-content/plugins/my-api-plugin/includes/class-my-db-handler.php on line 29
+[16-Jul-2025 10:30:28 UTC] PHP Parse error:  syntax error, unexpected variable "$existing", expecting "function" or "const" in /opt/lampp/htdocs/wordpress/wp-content/plugins/my-api-plugin/includes/class-my-db-handler.php on line 29
+[16-Jul-2025 10:30:49 UTC] PHP Parse error:  syntax error, unexpected variable "$existing", expecting "function" or "const" in /opt/lampp/htdocs/wordpress/wp-content/plugins/my-api-plugin/includes/class-my-db-handler.php on line 29
+[16-Jul-2025 10:32:18 UTC] API Response [200]: This URL has no default content configured. <a href="https://webhook.site/#!/edit/e7bcaaba-8ce9-451b-ae09-b591265fa69b">Change response in Webhook.site</a>.
+[16-Jul-2025 10:32:30 UTC] API Response [200]: This URL has no default content configured. <a href="https://webhook.site/#!/edit/e7bcaaba-8ce9-451b-ae09-b591265fa69b">Change response in Webhook.site</a>.
+[16-Jul-2025 10:35:20 UTC] API Response [200]: This URL has no default content configured. <a href="https://webhook.site/#!/edit/e7bcaaba-8ce9-451b-ae09-b591265fa69b">Change response in Webhook.site</a>.
+[16-Jul-2025 10:37:19 UTC] API Response [200]: This URL has no default content configured. <a href="https://webhook.site/#!/edit/e7bcaaba-8ce9-451b-ae09-b591265fa69b">Change response in Webhook.site</a>.
+[16-Jul-2025 10:38:51 UTC] API Response [200]: This URL has no default content configured. <a href="https://webhook.site/#!/edit/e7bcaaba-8ce9-451b-ae09-b591265fa69b">Change response in Webhook.site</a>.
+[16-Jul-2025 10:42:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method My_DB_Handler::get_table_name() in /opt/lampp/htdocs/wordpress/wp-content/plugins/my-api-plugin/includes/class-my-db-handler.php:46
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(324): My_DB_Handler::on_deactivate(false)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-admin/includes/plugin.php(826): do_action('deactivate_my-a...', false)
+#4 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(211): deactivate_plugins('my-api-plugin/m...', false, false)
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/my-api-plugin/includes/class-my-db-handler.php on line 46
+[16-Jul-2025 10:42:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method My_DB_Handler::get_table_name() in /opt/lampp/htdocs/wordpress/wp-content/plugins/my-api-plugin/includes/class-my-db-handler.php:46
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(324): My_DB_Handler::on_deactivate(false)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-admin/includes/plugin.php(826): do_action('deactivate_my-a...', false)
+#4 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(211): deactivate_plugins('my-api-plugin/m...', false, false)
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/my-api-plugin/includes/class-my-db-handler.php on line 46
+[16-Jul-2025 10:43:22 UTC] Table dropped: dwp_my_api_plugin_users
+[16-Jul-2025 10:43:57 UTC] Table creation attempted: dwp_my_api_plugin_users
+[16-Jul-2025 10:44:18 UTC] Inserted: Divya, divya@weetechsolution.com, 2025-07-16
+[16-Jul-2025 10:44:19 UTC] API Response [200]: This URL has no default content configured. <a href="https://webhook.site/#!/edit/e7bcaaba-8ce9-451b-ae09-b591265fa69b">Change response in Webhook.site</a>.
+[16-Jul-2025 10:44:42 UTC] Duplicate detected: divya@weetechsolution.com on 2025-07-16
+[16-Jul-2025 10:45:18 UTC] Inserted: Pranav, pranav.patil@brainvire.com, 2025-07-16
+[16-Jul-2025 10:45:18 UTC] API Response [200]: This URL has no default content configured. <a href="https://webhook.site/#!/edit/e7bcaaba-8ce9-451b-ae09-b591265fa69b">Change response in Webhook.site</a>.
+[17-Jul-2025 03:48:04 UTC] Automatic updates starting...
+[17-Jul-2025 03:48:04 UTC]   Automatic plugin updates starting...
+[17-Jul-2025 03:48:04 UTC]   Automatic plugin updates complete.
+[17-Jul-2025 03:48:05 UTC] Automatic updates complete.
+[17-Jul-2025 08:11:34 UTC] Automatic updates starting...
+[17-Jul-2025 08:11:35 UTC]   Automatic plugin updates starting...
+[17-Jul-2025 08:11:35 UTC]   Automatic plugin updates complete.
+[17-Jul-2025 08:11:35 UTC] Automatic updates complete.
+[18-Jul-2025 03:44:11 UTC] Automatic updates starting...
+[18-Jul-2025 03:44:12 UTC] Automatic updates complete.
+[18-Jul-2025 09:17:41 UTC] Automatic updates starting...
+[18-Jul-2025 09:17:42 UTC] Automatic updates complete.
